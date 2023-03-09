@@ -1,0 +1,85 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 480px) {
+    .logo{
+        width:  200px;
+    }
+    .searchbar{
+        width: 180px!important ;
+        height: 50px!important ;
+        font-size:  0.8rem!important;
+    }
+    .starty{
+        height: 50px!important  ;
+    }
+    .img1{
+        width: 350px!important  ;
+        height: 300px!important;
+    }
+    .img2{
+        width: 350px!important;
+        height: 200px!important ;
+    }
+    .img3{
+        width: 350px!important;
+        height: 450px!important ;
+    }
+    .img4{
+        width: 350px!important;
+        height: 250px!important ;
+    }
+    .img5{
+        width: 350px!important;
+        height: 350px!important ;
+    }
+    .img6{
+        width: 350px!important;
+        height: 350px!important ;
+    }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:  768px) {
+    .logo{
+        width:  200px;
+    }
+    .searchbar{
+        width: 180px!important ;
+        height: 50px!important ;
+        font-size:  0.8rem!important;
+    }
+    .starty{
+        height: 50px!important  ;
+    }
+    .img1{
+        width: 350px!important  ;
+        height: 300px!important;
+    }
+    .img2{
+        width: 350px!important;
+        height: 200px!important ;
+    }
+    .img3{
+        width: 350px!important;
+        height: 450px!important ;
+    }
+    .img4{
+        width: 350px!important;
+        height: 250px!important ;
+    }
+    .img5{
+        width: 350px!important;
+        height: 350px!important ;
+    }
+    .img6{
+        width: 350px!important;
+        height: 350px!important ;
+    }
+    }
+}
+.p{
+font-family: a;
+}

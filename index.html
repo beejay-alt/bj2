@@ -1,16 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-</head>
-<body>
-
-</body>
-</html>
-<style>
-</style>
+  <style>
+  button, .nav-link{
+    color: white!important;
+  }</style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link
@@ -33,22 +27,15 @@
   rel="stylesheet"
 
 />
-<link rel="stylesheet" type="text/css" href="aspers.css">
+<link rel="stylesheet" type="text/css" href="asper.css">
   <title></title>
 </head>
 <body>
-    
-<nav class="navbar navbar-expand-lg" style="background-color:">
+<nav class="navbar navbar-expand-lg" style="background-color: #002d2d;">
   <!-- Container wrapper -->
   <div class="container-fluid">
-     <img class="toto" 
-          src="Shopify.png"
-          width="110" 
-          height="60"
-          alt="MDB Logo"
-          loading="lazy"
-        >
-    <button 
+    <!-- Toggle button -->
+    <button
       class="navbar-toggler"
       type="button"
       data-mdb-toggle="collapse"
@@ -56,41 +43,28 @@
       aria-controls="navbarSupportedContent"
       aria-expanded="false"
       aria-label="Toggle navigation"
-    > 
+    >
+      <i class="fas fa-bars"></i>
+    </button>
 
-     <nav style="width:100%;" class="navbar navbar-expand-lg navbar-light a peep navbar-fixed-top">
-         <div class="fty"><i  style="color:black!important; " class="fas fa-bars"></i></div>
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <img
+          src="358-3589718_shopify-logo-white-transparent.png"
+          height="50"
+          alt="MDB Logo"
+          loading="lazy"
+        />
 
-          <div class="navbar-brand mt-2 mt-lg-0" href="#">
-  </button>
-         
-   
-      <br>
       </a>
-       <button 
-          class="navbar-toggler"
-          type="button"
-          data-mbd-toggle="collapse"
-          data-mbd-target="navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expand="false"
-          aria-label="Toggle navigation" 
-          >
-        
-
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-          
-        
-     
+      <link rel="stylesheet" type="text/css" href="index.html">
       <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
              <!-- Dropdown -->
       <li class="nav-item dropdown">
-        <a style="color:black!important;" 
-
+        <a
           class="nav-link dropdown-toggle"
           href="#"
           id="navbarDropdownMenuLink"
@@ -98,7 +72,7 @@
           data-mdb-toggle="dropdown"
           aria-expanded="false"
         >
-          Solutions
+          Start
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <li>
@@ -117,7 +91,7 @@
         </ul>
       </li>
       <li class="nav-item dropdown">
-        <a style="color:black!important;" 
+        <a
           class="nav-link dropdown-toggle"
           href="#"
           id="navbarDropdownMenuLink"
@@ -125,7 +99,7 @@
           data-mdb-toggle="dropdown"
           aria-expanded="false"
         >
-         Pricing 
+          Sell
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <li>
@@ -158,7 +132,7 @@
         </ul>
       </li>
       <li class="nav-item dropdown">
-        <a style="color:black!important;" 
+        <a
           class="nav-link dropdown-toggle"
           href="#"
           id="navbarDropdownMenuLink"
@@ -166,7 +140,7 @@
           data-mdb-toggle="dropdown"
           aria-expanded="false"
         >
-          Resources
+          Market
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <li>
@@ -187,9 +161,15 @@
         </ul>
       </li>
             <li class="nav-item dropdown">
-        <a>
-         
-          
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Manage
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <li>
@@ -216,391 +196,295 @@
         </ul>
       </li>
       </ul>
-
       <!-- Left links -->
           <!-- Right elements -->
     <div class="d-flex navbar-nav ms-auto mb-2 mb-lg-0">
      <li style="text-decoration: none!important;" class="nav-item">
-          <a class="nav-link" href="#"></a>
+          <a class="nav-link" href="#">Pricing</a>
         </li>
          <li class="nav-item dropdown">
         <a
-          >
-          
-        
-      <button class="button3" style="background-color:black;" type="button" class="btn me-3">
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Learn
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li>
+            <a class="dropdown-item" href="#">Help Center</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">All Products</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#"> Blog</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Buisness Courses</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Guides</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Shopify Community</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Free tools</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Podcasts</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Buisness encyclopedia</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Community Events</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Research</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Editions</a>
+          </li>
+        </ul>
+        <li style="text-decoration: none!important;" class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+      </li>
+      <button style="background-color: #008060;" type="button" class="btn me-3">
           Start free trial
         </button>
     <!-- Right elements -->
    </div>
 
     </div>
-  </nav>
-<div>
- <h1 class="text-center">Set up your store, pick a plan later
-</h1>
-<br>
- 
-<h2 class="text-center">Try Shopify free for 3 days, no credit card required
+    <!-- Collapsible wrapper -->
 
-</h2>
-</div>
-<br>
-<div class="text-center">
-<input class="search" style="height: 50px; font-size:25px; " type="search" class="form-control rounded display-flex" placeholder="Enter your email address" aria-label="Search" aria-describedby="search-addon"/><button class="button3" style="background-color:black;" type="button" class="btn me-3">
-          Start free trial
-        </button>
-      </div>
-<div style="text-align: center;">
-<br>
-<div><h5>By entering your email, you agree to receive marketing emails from Shopify.</h5></div>
-</div>
-</div>
-<br>
-<br>
-<div class="text-center">
-<input class="search2" style="height: 50px; font-size:25px; " type="search" class="form-control rounded display-flex" placeholder="Monthly" aria-label="Search" aria-describedby="search-addon"/> <button class="button3" style="background-color:black;" type="button" class="btn me-3">
-          Yearly (Save 10%)
-    
-        </div>
+ </div>
+ </div>
+</nav>
 
-<br>
-<br>
-<br>
-<br>
- <div class="container">
-  <div class="row">
-  <div class="col-sm-4 ">
-  <div class="wywy">
- 
-<div><h1>Most popular<h1></div>
   </div>
-</div>
-</div>
-</div>
 
-
-  <div class="container">
-  <div class="row">
-  <div class="col-sm-4 box">
-    <table>
-    
-      <tr><td class="Head">Basic</td></tr>
-      <tr><td>Everything you need to create your store, ship products, and process payments<br></td></tr>
-      <tr><td><br><s>£25</s></td></tr>
-      <tr><td>GBP</td></tr>
-      <tr><td><span class="Head2">£19</span>/mo</td></tr>
-      <tr><td>billed yearly</td></tr>
-      <tr><td><b>Credit card rates</b></td></tr>
-      <tr><td>2% + 25p online</td></tr>
-       <tr><td>1.7% + 0p person</td></tr>
-        <tr><td><b>What's included on Basic</b></td></tr>
-         <tr><td>Basic reports</td></tr>
-         <tr><td>Up to 1,000 inventory locations</td></tr>
-          <tr><td> 2 staff accounts</td></tr>
-           
-    </table>
-
-</div>
-<div class="col-sm-4 box">
-  <table>
-      <tr><td class="Head">Shopify</td></tr>
-      <tr><td>Level up your business with professional reporting and more staff accounts <br></td></tr>
-      <tr><td><br><s>£65</s></td></tr>
-      <tr><td>GBP £</td></tr>
-      <tr><td><span class="Head2">£49</span>/mo</td></tr>
-       <tr><td>billed yearly</td></tr>
-       <tr><td><b>Credit card rates</b></td></tr>
-       <tr><td>1.7% + 25p online</td></tr>
-          <tr><td>1.6% + 0p person</td></tr>
-           <tr><td><b>What's included in Shopify</b></td></tr>
-            <tr><td>Professional reports</td></tr>
-            <tr><td>Up to 1,000 inventory locations</td></tr>
-            <tr><td> 5 staff accounts</td></tr>
-
-
-
-    </table>
-</div>
-<div class="col-sm-4 box">
-  <table>
-      <tr><td  class="Head">Advanced</td></tr>
-      <tr><td>Get the best of Shopify with custom reporting and our lowest transaction fees<br></td></tr>
-      <tr><td><br><s>£344</s></td></tr>
-      <tr><td>GBP £</td></tr>
-      <tr><td><span class="Head2">£259</span>/mo</td></tr>
-       <tr><td>billed yearly</td></tr>
-       <tr><td><b>Credit card rates</b></td></tr>
-       <tr><td>1.5% + 25p online</td></tr>
-          <tr><td>1.5% + 0p person</td></tr>
-           <tr><td><b>What's included in Advanced</b></td></tr>
-            <tr><td>Custom report builder</td></tr>
-            <tr><td>Up to 1,000 inventory locations</td></tr>
-            <tr><td> 15 staff accounts</td></tr>
-
-    </table>
-</div>
-</h7>
-</div>
-</div>
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<div class="container">
-<div class="row">
-<div class="col-sm-4">
-<h4 style="font-size:13px;">Prices may vary by your store location</h4> 
-</div>
-</div>
-</div> 
-<br>
-<br>
-<br>
-<div class="container">
-<div class="row">
-<div class="col-sm-6">
-<h1>Enjoy these features on all of the above plans
-</h1>
-</div>
-</div>
-</div>
-<br>
-<br>
-<br>
-<div class="container">
-<div class="row">
-<div class="col-sm-3">
-<img src="online store.svg">
-<h2>Online store</h2>
-<p>Build an online store with Shopify’s<br> robust ecommerce platform—no<br> coding required.</p>
-</div>
-<div class="col-sm-3">
-<img src="sales channels.svg">
-<h2>Sales channels</h2>
-<p>Promote and sell your products on<br> multiple sales channels all from<br> within Shopify.</p>
-</div>
-<div class="col-sm-3">
-<img src="point of sale.svg">
-<h2>Point of sale</h2>
-<p>Shopify’s all-in-one POS system<br> comes with inventory tracking, staff<br> management, and more.</p>
-</div>
-<div class="col-sm-3">
-<img src="24 7 support.svg">
-<h2>24/7 support</h2>
-<p>Shopify offers 24/7 email and English<br> live chat support on all Shopify plans.</p>
-</div>
-</div>
-</div>
-<br>
-<br>
-<br>
-</div>
-<div style="text-align: center;">
- <button class="button" type="button" class="btn me-3">
-          + Compare plan features
-        </button> 
-</div>
-</div>
-</div>
-<br>
-<br>
-<br>
-<div class="oop">
-<div><h1>Alternative solutions for your buisness</h1></div>
-</div>
-<br>
-
-
-
-
-<div class="container">
-<div class="row">
-<div class="col-sm-6">
-<div class="apo";>
-<h1>Starter</h1>
-<br>
-<div><p>£1 GBP/month</p></div>
-<p>Sell products through social and messaging apps</p>
-<br>
-<button class="button2" type="button" class="btn me-3">
-         Explore Starter
-        </button>
-        <br>
-</div>
-</div>
-
-<br>
-
-
-<div class="col-sm-6">
-<div class="lol">
-
-<h1>shopifyplus</h1>
-<br>
-<div><p>Start at $2,000 USD/month</p></div>
-<p>All-in-one solution for high-volume buisnesses</p>
-
-<br>
-
-<button class="button" type="button" class="btn me-3">
-  
-          Explore plus
-        </button> 
-</div>
-
-    </button>
   </div>
-  </div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-sm-5">
-</div>
-<div class="col-sm-5">
- 
-</div>
-</div>
-</div>
-<br>
-<br>
-<br>
 
+  <!-- Container wrapper -->
+</nav>
+<div style="background-color: #002d2d;">
 <div class="container">
-<div class="row">
-<div class="col-sm-4">
-</div>
-<div class="col-sm-4">
-<br>
-<br>
-<br>
-<br>
-<div class="aka">
-  <h1>commerce<br>components</h1>
+  <div class="row"> 
+  <div class="col-sm-6 ">
   <br>
-<h2>Choose your components</h2>
-<br>
-<p>Modular pricing based on component usage</p>
+  <br>
+ <h1 style="color:white;">    If you can dream it,<br> you can sell it with<br> Shopify</h1>
 
+<h4 style="color:white;">   Build your business here. Take it anywhere.</h4>
 
-<button class="button" type="button" class="btn me-3">
-           Contact sales
-        </button> 
-        </div>
-        <br>
+<input class=" searchbar" style="height: 70px; font-size:25px; width:350px"; placeholder="Enter your email address">
+<button style="background-color:#008060;" type="button" class="starty btn me-3">
+          Start free trial
+        </button><h3 style="font-size:13px;margin-top:1.5%;color:white; "> Try Shopify free for 3 days, no credit card required. By entering your email, you agree<br> to receive marketing emails from Shopify.</h3>
+      </div>
+      <div class="col-sm-6">
+        <img class="img1" src="shopify thingy.webp" style="width:557px;height: 450px;">
+         </div>
+         </div>
+    <!-- Right elements -->
+
+  </div>
+  <!-- Container wrapper -->
  
-<br>
-<div><p>All payments will be billed in your selected currency</p></div> 
 </div>
 </div>
 </div>
-</div>
-</div>
-<br>
-<br>
-<div class="win">
+</nav>
+
+
 <div class="container">
+  <br> 
+  <br>  
+  <br>
+<h1 style="color:black;">Discover why millions of<br> entrepreneurs choose Shopify<br> to build their business—from<br> Hello World to IPO.
+</h1>
+<br>
+<img class="text-center img2" src="picture shopify.webp" style="width:750px" >
+<br>
+<div class="row">
+<div class="col-sm-4">
+
+<h1 style="font-size:30px;">Store builder</h1> 
+<h2 style="font-size:20px;">Bring your vision to life with our easy-to-use store creator. No coding expertise required—just<br> your next big idea.</h2>
+</div>
+<div   class="col-sm-4">
+<h1 style="font-size:30px;">Themes</h1> 
+<h2 style="font-size:20px;">Select from hundreds of customizable templates crafted by a community of world-class<br> designers.</h2>
+</div>
+<div class="col-sm-4">
+<h1  style="font-size:30px;">App store</h1> 
+<h2 style="font-size:20px;">Add more features and functionality to your<br> online store with app extensions from trusted<br>Shopify partners.</h2>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+<div class="row">
+<div class="col-sm-6"> 
+
+<h1>Connect with customers everywhere</h1>
+<h2>Sell online, in person, or both with the marketing tools, social integrations, and sales channels you need to get your products in front of customers—and out the door.</h2>
+
+<h2>Marketing made easy</h2>
+</div>
+<div class="col-sm-6"> 
+ <img class="img3" src="www.shop.webp" style="width:500px; height:600px;">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
 <div class="row">
 <div class="col-sm-6">
-<h1>Frequently asked questions</h1>
-<br>
-<h2>General questions</h2>
-<br>
-<p>What is Shopify and how does it work?</p>
-<br>
-<p>How much does Shopify cost?</p>
-<br>
-<p>How long are your contracts?</p>
-<br>
-<p>Can i cancel my account at any time?</p>
-<br>
-<p>Can i change my plan later on?</p>
-<br>
-<p>Do you offer any discounts?</p>
-<br>
-<p>In what countries can I use Shopify?</p>
-<br>
-<p>Is Shopify PCI Compliant or PCI Certified?</p>
-<br>
-<br>
-<h1>Payment questions</h1>
-<br>
-<p>Are there any transactions fees?</p>
-<br>
-<p>What is a third-party payment provider?</p>
-<br>
-<p>Are there any credit card fees?</p>
-<br>
-<br>
-<h1>Store setup questions</h1>
-<br>
-<p>Is there a setup fee?</p>
-<br>
-<p>Im looking to switch to Shopify. How do i get my data over?</p>
-<br>
-<p>Can I use my own domain name with Shopify?</p>
-<br>
-<p>Do I get free web hosting when I open an online store?</p>
-<p>What are your bandwith fees?</p>
-<br>
-<br>
-<h1>POS</h1>
-<p>What is Shopify POS?</p>
-<br>
-<p>What kinds of buisnesses use Shopify POS?</p>
-<br>
-<p>Does my online sotre integrate with Shopify POS</p>
-<br>
-<br>
+<img class="img4"  src="shoppy.webp" style="width:400px">
 </div>
-</div>
-</div>
-</div>
+<div class="col-sm-6">
+<h1>Everything you need to succeed</h1>
+<h3>Manage inventory, track payments, and view real-time business insights from a single dashboard. We’ve built all the tools you need, so you can focus on building your business.</h3>
 
-<div class="lose">
+<h2>Do more from day one</h2>
 <br>
 <br>
 <br>
-<div class="container">
+<br>
+<br>
+</div>
+<div>
+<h1>Empowering entrepreneurs everywhere</h1>
+
+
+ www
+  <div class="row">
+  <div class="col-sm-3">
+  <h1>Millions</h1>
+  <h7>of merchants worldwide</h7>
+</div>
+<div class="col-sm-3">
+  <h1>175</h1>
+  <h7>contries on Shopify</h7>
+</div>
+<div class="col-sm-3">
+<h1>5M</h1>
+<h7>jobs supported in 2021</h7>
+</div>
+<div class="col-sm-3">
+<h1>$444B+</h1>
+<h7>global economic activity</h7>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</div>
 <div class="row">
+<div class="col-sm-6">
+<h3 class="gh">Meet the merchants who chose Shopify</h3>
+<h2 class="gh">“We’ve been able to build something<br> in 3 years that a lot of brands haven’t<br> actually gotten to in 10 years.”</h2>
+<h4 class="gh">Chioma | Co-Founder & CEO</h4>
+</div>
+<div class="col-sm-6"> 
+<img class="img5" src="ttyy.webp" style="width:400px;">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<div>
+<h1>The help you need, when you need it</h1> 
+<div class="row">
+<div class="col-sm-4">
+<h1>Shopify Blog</h1>
+<h3>Get all the marketing and<br> business strategy tips you need<br>to help you run an online<br> business.</h3>
+</div>
+<div class="col-sm-4">
+<h1>Online Courses</h1>
+<h3>Get all the marketing and<br> business strategy tips you need<br>to help you run an online<br> business.</h3>
+</div>
+<div class="col-sm-4">
+<img class="img6" src="man.webp" style="width:400px;">
+</div>
 
+
+
+<div class="col-sm-6">
+<h1>Shopify Blog</h1>
+<h3>Get all the marketing and<br> business strategy tips you need<br>to help you run an online<br> business.</h3>
+</div>
+<div class="col-sm-6">
+<h1>Help Center</h1>
+<h3>Find answers in a flash with your dedicated<br>resource for articles and videos from our <br>Support team</h3>
+<br>
+<br>
+<br>
+<br>
+</div>
 <div class="col-sm-4">
 </div>
-
-<div><h1>Everything you need to sell online, all in one place</h1></div>
-<br>
-<br>
-<br>
-
-<div style="font-size:25px;"><p>Whether you're building a website, managing inventory, or responding to customers,you can do it all with shopify</p></div>
-
-<input class="search4" style="height: 50px; font-size:25px; " type="search" class="form-control rounded display-flex" placeholder="Enter your email address" aria-label="Search" aria-describedby="search-addon"/><button class="button0" style="background-color:black;" type="button" class="btn me-3">
+<div class="col-sm-4">
+<h1><strong><nobr>Grow your buisness here </strong></h1>
+</div>
+<div class="col-sm-4">
+</div>
+<div class=" text-center ">
+  <p class="text-center" style="font-size:20px;">Whether you want to sell products down the street or around the world, we have all the tools you need.</p>
+  <button class="text-center" style="background-color:#008060; border-radius: 5px; text-decoration:   none;" type="button" class="btn me-3">
           Start free trial
         </button>
-<div class="v"><p>Try Shopify free for 3 days, no credit required. By entering your email,<br>you agree to recieve marketing emails from shopify</p>
-<br>
+</div>
 <br>
 <br>
 <br>
 </div>
+</div>  
 </div>
 </div>
 </div>
-<footer style="background-color: black;" class="text-center text-lg-start  text-muted">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer style="background-color: #004c3f;" class="text-center text-lg-start  text-muted">
   <!-- Section: Social media -->
-<div class="t">
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
     <div class="me-5 d-none d-lg-block">
       <span>Get connected with us on social networks:</span>
     </div>
-   
+    <!-- Left -->
 
-     
+    <!-- Right -->
     <div>
       <a href="" class="me-4 text-reset">
         <i class="fab fa-facebook-f"></i>
@@ -623,29 +507,26 @@
     </div>
     <!-- Right -->
   </section>
-   
   <!-- Section: Social media -->
 
 
 
   <!-- Section: Links  -->
   <section class="">
-
     <div class="container text-center text-md-start mt-5">
       <!-- Grid row -->
       <div class="row mt-3">
         <!-- Grid column -->
-
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <div class="yup"><img
-          src="Shoppi.png"
-          height="100"
-          alt="MDB Logo"
-          loading="lazy"
-        /></div>
           <!-- Content -->
-          
-                 </div>
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>About
+          </h6>
+          <p class="qqq">
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
@@ -653,95 +534,56 @@
                    <!-- Links -->
           <div>
           <h6 class="text-uppercase fw-bold mb-4">
-            Shopify
+            Products
           </h6>
           <p class="qqq">
-            <a href="#!" class="text-reset">About Shopify</a>
+            <a href="#!" class="text-reset">Angular</a>
           </p>
           <p class="qqq">
-            <a href="#!" class="text-reset">Careers</a>
+            <a href="#!" class="text-reset">React</a>
           </p>
           <p class="qqq">
-            <a href="#!" class="text-reset">Investors</a>
+            <a href="#!" class="text-reset">Vue</a>
           </p>
           <p class="qqq">
-            <a href="#!" class="text-reset">Press and Media</a>
-          </p>
-            <p class="qqq">
-            <a href="#!" class="text-reset">Partners</a>
-          </p>
-          <p class="qqq">
-            <a href="#!" class="text-reset">Affiliates</a>
-          </p>
-            <p class="qqq">
-            <a href="#!" class="text-reset">Legal</a>
-          </p>
-          <p class="qqq">
-            <a href="#!" class="text-reset">Server status</a>
+            <a href="#!" class="text-reset">Laravel</a>
           </p>
         </div>
       </div>
-      <br>
-
         <!-- Grid column -->
 
         <!-- Grid column -->
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Support
+            Useful links
           </h6>
           <p class="qqq">
-            <a href="#!" class="text-reset">Merchant support</a>
+            <a href="#!" class="text-reset">Pricing</a>
           </p>
           <p class="qqq">
-            <a href="#!" class="text-reset">Help center</a>
+            <a href="#!" class="text-reset">Settings</a>
           </p>
           <p class="qqq">
-            <a href="#!" class="text-reset">Hire an Expert</a>
+            <a href="#!" class="text-reset">Orders</a>
           </p>
           <p class="qqq"> 
-            <a href="#!" class="text-reset">Shopify Community</a>
+            <a href="#!" class="text-reset">Help</a>
           </p>
-          <p class="qqq">
-            <a href="#!" class="text-reset">Shopify Events</a>
-          </p>
-        </div>
-
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Developers
-          </h6>
-          <p class="qqq">
-            <a href="#!" class="text-reset">Shopify.dev</a>
-          </p>
-          <p class="qqq">
-            <a href="#!" class="text-reset">API documentation</a>
-          </p>
-          <p class="qqq">
-            <a href="#!" class="text-reset">Dev Degree</a>
-          </p>
-          
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Products</h6>
-          <p class="qqq"><i class="fas fa-home me-3"></i>Shop</p>
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p class="qqq"><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
           <p class="qqq">
             <i class="fas fa-envelope me-3"></i>
-            Shop pay
+            info@example.com
           </p>
-          <p class="qqq"><i class="fas fa-phone me-3"></i>Shopify Plus </p>
-          <p><i class="fas fa-print me-3"></i>Shopify Fulfillment Network</p>
-          <p><i class="fas fa-print me-3"></i>Linkpop</p>
-          <p><i class="fas fa-print me-3"></i>Hydrogen and Oxygen</p>
-          <p><i class="fas fa-print me-3"></i>Commerce Components</p>
-           
-
+          <p class="qqq"><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
         </div>
         <!-- Grid column -->
       </div>
@@ -751,3 +593,5 @@
 </div>
 </div>
 </footer>
+</body>
+</html>
